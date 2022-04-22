@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :accounts, Accounts.Repo,
   username: "postgres",
-  password: "Django147$",
+  password: "postgres",
   database: "accounts_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
